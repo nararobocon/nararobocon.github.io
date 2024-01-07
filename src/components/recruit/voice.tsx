@@ -9,7 +9,7 @@ const Voice = () => {
                 <span className="decoration-ruby-500 underline">Voice</span>
                 <span className="p-6 pt-0 font-light text-sm no-underline text-start">先輩の声を紹介します</span>
             </div>
-            <div className="p-12 grid md:grid-cols-2 sm:grid-cols-1 xl:grid-cols-4 2xl:grid-cols-4 lg:grid-cols-4 gap-6">
+            <div className=" grid md:grid-cols-2 sm:grid-cols-1 xl:grid-cols-4 2xl:grid-cols-4 lg:grid-cols-4 gap-6">
                 <VoiceCard link="1" name="1E 男性" group="回路班" heading="やろうと思えば何でもできる環境" />
                 <VoiceCard link="2" name="2S 女性" group="機械班" heading="意見交換がしやすい" />
                 <VoiceCard link="3" name="1I 男性" group="制御班" heading="直感でやりたいと感じた" />

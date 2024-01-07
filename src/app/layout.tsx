@@ -15,11 +15,12 @@ const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto"
 })
 
-// export const metadata: Metadata = {
-//   title: 'Nara Roboco Project',
-//   description: '奈良高専ロボコンプロジェクトの公式サイトです',
-//   icons: "/favicon.svg",
-// }
+export const metadata: Metadata = {
+  title: 'Nara Roboco Project',
+  description: '奈良高専ロボコンプロジェクトの公式サイトです',
+  icons: "/favicon.svg",
+  metadataBase: new URL("https://nararobocon.github.io" ?? 'http://localhost:3000'),
+}
 
 export default function RootLayout({
   children,
@@ -27,9 +28,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${notoSansJP.variable}`}>
+    <html lang="en" className={`${inter.variable} ${notoSansJP.variable}`} prefix="og: http://ogp.me/ns#">
       <head>
-        <title>Nara Roboco Project</title>
+        <title>Nara Robocon Project</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name='description' content='奈良高専ロボコンプロジェクトの公式サイトです' />
         <meta name="theme-color" content="#1d2427" />

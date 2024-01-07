@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="flex items-center justify-center w-full h-screen bg-pearl-100 text-dark-950" id="about">
+        <div className="flex items-center justify-center w-full min-h-screen bg-pearl-100 text-dark-950" id="about">
             <div className="flex items-center justify-center w-full h-full p-12">
                 <div className="grid flex-row items-center grid-cols-12 gap-3 ">
                     <div className="flex flex-col lg:col-span-6 xl:col-span-6 2xl:col-span-6 col-span-12 gap-3">

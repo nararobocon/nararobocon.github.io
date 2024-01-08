@@ -1,3 +1,11 @@
+
+import { Metadata } from "next"
+export const metadata: Metadata = {
+    title: 'ロボコンがやりたくて高専に入った',
+    description: '奈良高専ロボコンプロジェクトに参加する先輩のインタビューを紹介します。',
+    icons: "/favicon.svg",
+    metadataBase: new URL(process.env.METADATABASE_URL ?? "https://nararobocon.github.io"),
+}
 const Voice2 = () => {
     return (<>
         <div className="p-12 bg-ruby-500 text-white">

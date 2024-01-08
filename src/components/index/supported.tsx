@@ -10,7 +10,7 @@ const Supported = () => {
                     <img src="/solidworks.svg" alt="solidworks"></img>
                 </div>
                 <div className="w-full flex-col flex justify-center items-center">
-                    <img src="/esa.png" alt="esa"></img>
+                    <img src="/esa.webp" alt="esa"></img>
                     <p>© esa LLC</p>
                 </div>
                 <div className="w-full flex justify-center items-center">

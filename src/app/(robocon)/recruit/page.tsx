@@ -1,0 +1,22 @@
+import Voice from "@/components/index/recruit/voice"
+import Message from "@/components/index/recruit/message"
+import Jobs from "@/components/index/recruit/jobs"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: '採用情報',
+    description: 'Nara Robocon Project Official Site',
+    icons: "/favicon.svg",
+    metadataBase: new URL(process.env.METADATABASE_URL ?? "https://nararobocon.github.io"),
+}
+
+const Recruit = () => {
+    return (
+        <>
+            <Message />
+            <Jobs />
+            <Voice />
+        </>
+    )
+}
+export default Recruit

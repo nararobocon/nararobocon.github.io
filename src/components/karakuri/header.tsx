@@ -20,10 +20,10 @@ const Header = () => {
             <nav className="mx-auto flex  items-center justify-between lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <Link className='flex items-center font-noto justify-center gap-3 p-1 w-fit' href='/'>
-                        <img src="/logo-icon.svg" alt='logo' className='select-none h-9' />
+                        {/* <img src="/logo-icon.svg" alt='logo' className='select-none h-9' /> */}
                         <div className='select-none'>
                             <p className='text-xs'>奈良高専</p>
-                            <p>ロボコンプロジェクト</p>
+                            <p>からくり部</p>
                         </div>
                     </Link>
                 </div>
@@ -38,28 +38,16 @@ const Header = () => {
                     </button>
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-6">
-                    <Link href="/" className="hover:bg-dark-900 p-3 rounded-xl transition-colors text-sm font-semibold leading-6 text-white">
+                    <Link href="/karakuri" className="hover:bg-dark-900 p-3 rounded-xl transition-colors text-sm font-semibold leading-6 text-white">
                         Home
                     </Link>
-                    <Link href="/recruit" className="hover:bg-dark-900 p-3 rounded-xl transition-colors text-sm font-semibold leading-6 text-white">
-                        Recruit
-                    </Link>
-                    <Link href="/karakuri" className="hover:bg-dark-900 p-3 rounded-xl transition-colors text-sm font-semibold font-noto leading-6 text-white">
-                        からくり部
-                    </Link>
-                    <Link target="_blank" href="https://nararoboconproject.wordpress.com/" className="hover:bg-dark-900 p-3 rounded-xl transition-colors text-sm font-semibold leading-6 text-white">
-                        Blog
+                    <Link href="/" className="hover:bg-dark-900 p-3 rounded-xl transition-colors text-sm font-semibold font-noto leading-6 text-white">
+                        ロボコンプロジェクト
                     </Link>
                 </Popover.Group>
                 <div className="hidden gap-6 lg:flex lg:flex-1 lg:justify-end">
                     <a href="https://github.com/nararobocon" target='_blank' className='p-2 rounded-full hover:bg-dark-900'>
                         <FaGithub size={28} />
-                    </a>
-                    <a href="https://www.instagram.com/nararoboconteam/" target='_blank' className='p-2 rounded-full hover:bg-dark-900'>
-                        <FaInstagram size={28} />
-                    </a>
-                    <a href="https://twitter.com/nararoboconteam" target='_blank' className='p-2 rounded-full hover:bg-dark-900'>
-                        <FaTwitter size={28} />
                     </a>
                 </div>
             </nav>
@@ -88,40 +76,21 @@ const Header = () => {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
                                 <Link
-                                    href="/"
+                                    href="/karakuri"
                                     className="-mx-3 block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
                                 >
                                     Home
                                 </Link>
                                 <Link
-                                    href="/recruit"
-                                    className="-mx-3 block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
-                                >
-                                    Recruit
-                                </Link>
-                                <Link
-                                    href="/karakuri"
+                                    href="/"
                                     className="-mx-3 font-noto block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
                                 >
-                                    からくり部
-                                </Link>
-                                <Link
-                                    href="https://nararoboconproject.wordpress.com/"
-                                    className="-mx-3 block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
-                                    target="_blank"
-                                >
-                                    Blog
+                                    ロボコンプロジェクト
                                 </Link>
                             </div>
                             <div className="py-6 flex gap-6 text-white">
                                 <a href="https://github.com/nararobocon" target='_blank' className='p-2 rounded-ful hover:bg-dark-900'>
                                     <FaGithub size={28} />
-                                </a>
-                                <a href="https://www.instagram.com/nararoboconteam/" target='_blank' className='p-2 rounded-full hover:bg-dark-900'>
-                                    <FaInstagram size={28} />
-                                </a>
-                                <a href="https://twitter.com/nararoboconteam" target='_blank' className='p-2 rounded-full hover:bg-dark-900'>
-                                    <FaTwitter size={28} />
                                 </a>
                             </div>
                         </div>

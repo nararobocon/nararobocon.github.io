@@ -1,45 +1,53 @@
-const Voice2 = () => {
+import { Metadata } from "next"
+export const metadata: Metadata = {
+    title: '直感でやりたいと感じた',
+    description: '奈良高専ロボコンプロジェクトに参加する先輩のインタビューを紹介します。',
+    icons: "/favicon.svg",
+    metadataBase: new URL(process.env.METADATABASE_URL ?? "https://nararobocon.github.io"),
+}
+const Voice3 = () => {
     return (
         <>
-            <div className="p-12 bg-ruby-500 text-white">
-                <p>先輩の声 2</p>
-                <div className="p-12 text-4xl font-extrabold">意見交換がしやすい</div>
-                <p className="text-end text-xl">2S 機械班<span className="text-xs"> ※2024/1現在</span></p>
+            <div className="p-12 bg-azure-500 text-white">
+                <p>先輩の声 3</p>
+                <div className="p-12 text-4xl font-extrabold">直感でやりたいと感じた</div>
+                <p className="text-end text-xl">1I 制御班<span className="text-xs"> ※2024/1現在</span></p>
             </div>
             <div className="p-12 w-full text-lg">
                 <div className="p-6 ps-0"><span className="text-ruby-500 text-xl">Q</span>
                     なぜロボコンを始めましたか？
                 </div>
                 <div className="w-fit  bg-white shadow rounded-xl p-6 m-3">
-                    小学生のときに高専ロボコンを見て自分もロボットを作りたいって思ったからです。
+                    テレビで見て直感でやりたいと感じたからです。
                 </div>
                 <div className="p-6 ps-0"><span className="text-ruby-500">Q</span>
                     やりがいを感じることは何ですか？
                 </div>
                 <div className="w-fit  bg-white shadow rounded-xl p-6 m-3">
-                    みんなで作ったロボットが想定通りに動いたときです。
+                    自分達が作ったロボットが実際に会場で動いたとき。
+
                 </div>
                 <div className="p-6 ps-0"><span className="text-ruby-500">Q</span>
                     部活の雰囲気はどのような感じですか？
                 </div>
                 <div className="w-fit  bg-white shadow rounded-xl p-6 m-3">
-                    部員同士の仲が良くて、意見を交換しやすいです。
+                    うーん､､､まぁ､､､うん
+                    制御班は良いと思います。
                 </div>
                 <div className="p-6 ps-0"><span className="text-ruby-500">Q</span>
                     部活をやっていて楽しいと感じることは？
                 </div>
                 <div className="w-fit  bg-white shadow rounded-xl p-6 m-3">
-                    自分のアイデアを実現出来たときです。
+                    プログラムがちゃんと動いた瞬間です。
                 </div>
                 <div className="p-6 ps-0"><span className="text-ruby-500">Q</span>
                     部活をやっていて大変だと感じることは？
                 </div>
                 <div className="w-fit  bg-white shadow rounded-xl p-6 m-3">
-                    良いアイデアが思いつかないときや、作った機構が故障したときです。
-
+                    部活の時間が長かったり家で作業したりすることもあるので、どうしても部活以外の時間を削らないといけないときがあること。
                 </div>
             </div>
         </>
     )
 }
-export default Voice2
+export default Voice3

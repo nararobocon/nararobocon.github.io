@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./arrow.css"
 const Message = () => {
     return (
@@ -10,6 +11,9 @@ const Message = () => {
                     <span className="underline decoration-ruby-500">
                         ロボコン
                     </span>
+                </div>
+                <div className="m-3">
+                    <Link href="/recruit/2024" className="p-3 text-azure-500 underline">2024年度 新卒採用 特設ページ</Link>
                 </div>
                 <div className="down-arrow"></div>
             </div>

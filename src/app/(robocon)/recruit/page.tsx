@@ -4,7 +4,7 @@ import Jobs from "@/components/index/recruit/jobs"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: '採用情報',
+    title: '総合採用',
     description: 'Nara Robocon Project Official Site',
     icons: "/favicon.svg",
     metadataBase: new URL(process.env.METADATABASE_URL ?? "https://nararobocon.github.io"),

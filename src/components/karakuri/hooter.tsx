@@ -10,7 +10,7 @@ const Hooter = () => {
                 </p>
                 <p>このサイトを使用することで発生した損害について、当プロジェクトは一切の責任を負いません。</p>
             </div>
-            <p className="pt-3 text-center">© 2024 奈良高専ロボコンプロジェクト</p>
+            <p className="pt-3 text-center">© 2024 奈良高専からくり部</p>
         </footer>
     )
 }

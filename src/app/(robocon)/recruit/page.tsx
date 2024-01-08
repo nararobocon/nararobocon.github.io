@@ -5,7 +5,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: '総合採用',
-    description: 'Nara Robocon Project Official Site',
+    description: 'Nara Robocon Project 総合採用情報',
     icons: "/favicon.svg",
     metadataBase: new URL(process.env.METADATABASE_URL ?? "https://nararobocon.github.io"),
 }

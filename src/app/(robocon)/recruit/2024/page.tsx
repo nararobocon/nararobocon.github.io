@@ -4,7 +4,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: '2024年度新卒採用特設サイト',
-    description: "奈良高専ロボコンプロジェクト/からくり部の2024年度新卒採用特設サイトです"
+    description: "奈良高専ロボコンプロジェクト・からくり部の2024年度新卒採用特設サイトです"
 }
 const Recruit2024 = () => {
     return (

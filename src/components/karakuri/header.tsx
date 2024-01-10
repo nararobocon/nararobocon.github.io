@@ -20,8 +20,8 @@ const Header = () => {
             <nav className="mx-auto flex  items-center justify-between lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <Link className='flex items-center font-noto justify-center gap-3 p-1 w-fit' href='/'>
-                        {/* <img src="/logo-icon.svg" alt='logo' className='select-none h-9' /> */}
-                        <div className='select-none'>
+                        {/* <img src="/logo-icon.svg" alt='logo' className=' h-9' /> */}
+                        <div className=''>
                             <p className='text-xs'>奈良高専</p>
                             <p>からくり部</p>
                         </div>

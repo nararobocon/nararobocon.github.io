@@ -46,7 +46,6 @@ const VoiceCard = ({ name, group, heading, link }: VoiceCardProps) => {
                 <div className="w-full h-full flex justify-center items-center flex-col">
                     <UserIcon className="h-12 w-12 text-white" />
                     <p className="text-sm italic text-white">&quot;{heading}&quot;</p>
-
                 </div>
                 {/* <div className="w-full shadow-lg aspect-video bg-dark-950 rounded-xl"></div> */}
                 <div className="absolute z-10 inset-x-0 top-0 right-0 flex items-start justify-start h-full text-xl font-semibold text-center text-white  rounded-xl">

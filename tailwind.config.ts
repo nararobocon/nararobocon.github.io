@@ -82,6 +82,9 @@ const config: Config = {
       },
       backgroundImage: {
         2022: "url('/public/2022.jpg')",
+        machine: "url('/machine.webp')",
+        control: "url('/control.webp')",
+        circuit: "url('/circuit.webp')",
       },
     },
   },

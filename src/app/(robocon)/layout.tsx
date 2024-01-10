@@ -43,7 +43,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={notoSansJP.className}>
-        <div className={"w-full text-white select-none bg-dark-950 " + `${inter.variable} ${notoSansJP.variable}`}>
+        <div className={"w-full text-white bg-dark-950 " + `${inter.variable} ${notoSansJP.variable}`}>
           <Header />
           {children}
           <Hooter />

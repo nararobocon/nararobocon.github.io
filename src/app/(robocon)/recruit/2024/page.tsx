@@ -1,4 +1,5 @@
 import EyeCatch from "@/components/index/recruit/2024/catch"
+import Mission from "@/components/index/recruit/2024/mission"
 import What from "@/components/index/recruit/2024/what"
 import { Metadata } from "next"
 
@@ -11,6 +12,7 @@ const Recruit2024 = () => {
         <>
             <div className="w-full bg-pearl-100 text-dark-950">
                 <EyeCatch />
+                {/* <Mission /> */}
                 <What />
             </div>
         </>

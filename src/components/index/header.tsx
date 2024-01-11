@@ -3,18 +3,15 @@ import Link from "next/link";
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
-    ArrowPathIcon,
     Bars3Icon,
-    ChartPieIcon,
-    CursorArrowRaysIcon,
-    FingerPrintIcon,
-    SquaresPlusIcon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import { FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    function closeModal() {
+        setMobileMenuOpen(false)
+    }
     return (
         <header className="sticky font-inter top-0 z-40 w-full p-3 bg-opacity-95 text-white bg-dark-950">
             <nav className="mx-auto flex  items-center justify-between lg:px-8" aria-label="Global">
@@ -30,7 +27,7 @@ const Header = () => {
                 <div className="flex lg:hidden">
                     <button
                         type="button"
-                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
@@ -90,18 +87,21 @@ const Header = () => {
                                 <Link
                                     href="/"
                                     className="-mx-3 block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
+                                    onClick={closeModal}
                                 >
                                     Home
                                 </Link>
                                 <Link
                                     href="/recruit"
                                     className="-mx-3 block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
+                                    onClick={closeModal}
                                 >
                                     Recruit
                                 </Link>
                                 <Link
                                     href="/karakuri"
                                     className="-mx-3 font-noto block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
+                                    onClick={closeModal}
                                 >
                                     からくり部
                                 </Link>
@@ -109,6 +109,7 @@ const Header = () => {
                                     href="https://nararoboconproject.wordpress.com/"
                                     className="-mx-3 block transition-colors rounded-xl px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-dark-900"
                                     target="_blank"
+                                    onClick={closeModal}
                                 >
                                     Blog
                                 </Link>

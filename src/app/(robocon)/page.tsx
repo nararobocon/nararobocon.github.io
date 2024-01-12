@@ -3,7 +3,6 @@ import Groups from '@/components/index/group'
 import Intro from '@/components/index/intro'
 import Recruit from '@/components/index/recruit'
 import Supported from '@/components/index/supported'
-import Topics from '@/components/index/topic'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -17,7 +16,6 @@ export default function Home() {
   return (
     <div className='w-full text-dark-950'>
       <Intro />
-      <Topics />
       <About />
       <Groups />
       <Recruit />

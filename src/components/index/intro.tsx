@@ -16,8 +16,8 @@ const Intro = () => {
                         Project<br></br>
                     </div>
                     <div className="flex gap-3 pt-6 pb-6 font-bold">
-                        <span className="flex items-center justify-center p-1 rounded-full ring-2 ring-yellow-500 ps-3 pe-3 w-fit"><FaTrophy size={18} /> 最多ロボコン大賞受賞</span>
-                        <span className="flex items-center justify-center p-1 rounded-full ring-2 ring-yellow-500 ps-3 pe-3 w-fit"><FaCrown size={18} /> 全国大会2回優勝</span>
+                        <span className="flex items-center justify-center p-1 rounded-lg ring-2 ring-yellow-500 ps-3 pe-3 w-fit"><FaTrophy size={18} /> 最多ロボコン大賞受賞</span>
+                        <span className="flex items-center justify-center p-1 rounded-lg ring-2 ring-yellow-500 ps-3 pe-3 w-fit"><FaCrown size={18} /> 全国大会2回優勝</span>
                     </div>
                 </div>
             </div>

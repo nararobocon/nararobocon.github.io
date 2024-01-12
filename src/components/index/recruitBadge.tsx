@@ -17,7 +17,7 @@ export const CareerRecruitBadge = () => {
         <Link href="/recruit">
             <div className="text-xs lg:text-base xl:text-base 2xl:text-base  flex items-center justify-center text-white rounded-full bg-gradient-to-b w-fit">
                 <span className="p-2 break-words rounded-full ps-6 pe-6 bg-gradient-to-b from-ruby-500 to-ruby-700 w-fit">
-                    キャリア採用
+                    総合採用
                 </span>
             </div>
         </Link>

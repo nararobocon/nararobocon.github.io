@@ -20,7 +20,7 @@ const Header = () => {
                         <img src="/logo-icon.svg" alt='logo' className=' h-9' />
                         <div className=''>
                             <p className='text-xs'>奈良高専</p>
-                            <p>ロボコンプロジェクト</p>
+                            <p>ロボコンプロジェクト・からくり部</p>
                         </div>
                     </Link>
                 </div>

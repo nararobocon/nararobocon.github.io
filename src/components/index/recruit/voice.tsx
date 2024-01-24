@@ -4,7 +4,7 @@ import { UserIcon } from "@heroicons/react/24/outline"
 
 const Voice = () => {
     return (
-        <div className="w-full min-h-screen p-12 bg-pearl-100 text-dark-950">
+        <div className="w-full p-12 bg-pearl-100 text-dark-950">
             <div className="p-6 text-6xl text-start font-extrabold font-inter ">
                 <span className="decoration-ruby-500 underline">Voice</span>
                 <span className="p-6 pt-0 font-light text-sm no-underline text-start">先輩の声を紹介します</span>
@@ -14,6 +14,9 @@ const Voice = () => {
                 <VoiceCard link="2" name="2S 女性" group="機械班" heading="意見交換がしやすい" />
                 <VoiceCard link="3" name="1I 男性" group="制御班" heading="直感でやりたいと感じた" />
                 <VoiceCard link="4" name="2S 男性" group="機械班" heading="ロボコンがやりたくて高専に入った" />
+                <VoiceCard link="5" name="2S 男性" group="機械班" heading="自分の手で形にすること" />
+                <VoiceCard link="6" name="2I 女性" group="制御班" heading="やるときはちゃんとやる" />
+                <VoiceCard link="7" name="1E 男性" group="回路班" heading="自分の設計したものが出来上がる" />
             </div>
 
         </div>

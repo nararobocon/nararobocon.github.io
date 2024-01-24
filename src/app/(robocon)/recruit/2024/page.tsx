@@ -1,8 +1,8 @@
 import EyeCatch from "@/components/index/recruit/2024/catch"
-import Mission from "@/components/index/recruit/2024/mission"
 import Schedule from "@/components/index/recruit/2024/schedule"
 import Training from "@/components/index/recruit/2024/training"
 import What from "@/components/index/recruit/2024/what"
+import Voice from "@/components/index/recruit/voice"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -17,6 +17,7 @@ const Recruit2024 = () => {
                 <What />
                 <Schedule />
                 <Training />
+                <Voice />
             </div>
         </>
     )

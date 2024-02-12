@@ -30,6 +30,7 @@ export default function RootLayout({
         <meta property="og:image:type" content="<generated>" />
         <meta property="og:image:width" content="<generated>" />
         <meta property="og:image:height" content="<generated>" />
+        <meta http-equiv="refresh" content="0;url=https://www.nararobocon.me/" />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-LC5K3384FW" />
         <Script id="google-analytics">
           {`
